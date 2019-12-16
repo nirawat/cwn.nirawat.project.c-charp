@@ -1,0 +1,8 @@
+version: '3.5'
+services:
+  business.etax.receipttaxinvoice.service:
+    container_name: business.etax.receipttaxinvoice.service
+    image: 192.168.31.246:5000/business.etax.receipttaxinvoice.service
+    restart: always
+    ports:
+      - "40001:80"

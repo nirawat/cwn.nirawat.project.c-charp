@@ -1,0 +1,8 @@
+version: '3.5'
+services:
+  cwn.etax.service.sms:
+    container_name: cwn.etax.service.sms
+    image: 10.148.0.33:5000/cwn.etax.service.sms
+    restart: always
+    ports:
+      - "30101:80"
